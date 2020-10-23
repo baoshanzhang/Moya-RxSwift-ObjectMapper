@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C98D9D7813FE80D20838E1A /* Pods_Moya_RxSwift_ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFAB641F2864D9C0F6FA06F /* Pods_Moya_RxSwift_ObjectMapper.framework */; };
+		8B47C9862541BC1D000B42EF /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47C9852541BC1D000B42EF /* TestModel.swift */; };
+		8B47C9922541C049000B42EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47C9912541C049000B42EF /* SceneDelegate.swift */; };
 		8B695F5925401B1F00F8DD2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F5825401B1F00F8DD2C /* AppDelegate.swift */; };
-		8B695F5B25401B1F00F8DD2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F5A25401B1F00F8DD2C /* SceneDelegate.swift */; };
 		8B695F5D25401B1F00F8DD2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F5C25401B1F00F8DD2C /* ViewController.swift */; };
 		8B695F6025401B1F00F8DD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B695F5E25401B1F00F8DD2C /* Main.storyboard */; };
 		8B695F6225401B2000F8DD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B695F6125401B2000F8DD2C /* Assets.xcassets */; };
 		8B695F6525401B2000F8DD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B695F6325401B2000F8DD2C /* LaunchScreen.storyboard */; };
+		8B695F7925401D3800F8DD2C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F7825401D3800F8DD2C /* API.swift */; };
+		8B695F7D254020C200F8DD2C /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F7C254020C200F8DD2C /* TestAPI.swift */; };
+		8B695F842540521D00F8DD2C /* ObjectMapperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B695F832540521D00F8DD2C /* ObjectMapperExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75BEADA4C20EB05C3A75DDF7 /* Pods-Moya+RxSwift+ObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moya+RxSwift+ObjectMapper.release.xcconfig"; path = "Target Support Files/Pods-Moya+RxSwift+ObjectMapper/Pods-Moya+RxSwift+ObjectMapper.release.xcconfig"; sourceTree = "<group>"; };
+		8B47C9852541BC1D000B42EF /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		8B47C9912541C049000B42EF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B695F5525401B1F00F8DD2C /* Moya+RxSwift+ObjectMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moya+RxSwift+ObjectMapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B695F5825401B1F00F8DD2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B695F5A25401B1F00F8DD2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B695F5C25401B1F00F8DD2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B695F5F25401B1F00F8DD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B695F6125401B2000F8DD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B695F6425401B2000F8DD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B695F6625401B2000F8DD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B695F7825401D3800F8DD2C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8B695F7C254020C200F8DD2C /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
+		8B695F832540521D00F8DD2C /* ObjectMapperExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapperExtension.swift; sourceTree = "<group>"; };
+		AD02AD032319B5F41EBC4844 /* Pods-Moya+RxSwift+ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moya+RxSwift+ObjectMapper.debug.xcconfig"; path = "Target Support Files/Pods-Moya+RxSwift+ObjectMapper/Pods-Moya+RxSwift+ObjectMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFAB641F2864D9C0F6FA06F /* Pods_Moya_RxSwift_ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moya_RxSwift_ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C98D9D7813FE80D20838E1A /* Pods_Moya_RxSwift_ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B485F48DDBC61BCF1A6D7D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFAB641F2864D9C0F6FA06F /* Pods_Moya_RxSwift_ObjectMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B695F4C25401B1F00F8DD2C = {
 			isa = PBXGroup;
 			children = (
 				8B695F5725401B1F00F8DD2C /* Moya+RxSwift+ObjectMapper */,
 				8B695F5625401B1F00F8DD2C /* Products */,
+				BDBCDF75A453A31E460C587A /* Pods */,
+				7B485F48DDBC61BCF1A6D7D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		8B695F5725401B1F00F8DD2C /* Moya+RxSwift+ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
+				8B695F7725401CF000F8DD2C /* NetRequest */,
 				8B695F5825401B1F00F8DD2C /* AppDelegate.swift */,
-				8B695F5A25401B1F00F8DD2C /* SceneDelegate.swift */,
 				8B695F5C25401B1F00F8DD2C /* ViewController.swift */,
+				8B47C9912541C049000B42EF /* SceneDelegate.swift */,
+				8B695F7C254020C200F8DD2C /* TestAPI.swift */,
+				8B47C9852541BC1D000B42EF /* TestModel.swift */,
 				8B695F5E25401B1F00F8DD2C /* Main.storyboard */,
 				8B695F6125401B2000F8DD2C /* Assets.xcassets */,
 				8B695F6325401B2000F8DD2C /* LaunchScreen.storyboard */,
 				8B695F6625401B2000F8DD2C /* Info.plist */,
 			);
 			path = "Moya+RxSwift+ObjectMapper";
+			sourceTree = "<group>";
+		};
+		8B695F7725401CF000F8DD2C /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				8B695F7825401D3800F8DD2C /* API.swift */,
+				8B695F832540521D00F8DD2C /* ObjectMapperExtension.swift */,
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		BDBCDF75A453A31E460C587A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD02AD032319B5F41EBC4844 /* Pods-Moya+RxSwift+ObjectMapper.debug.xcconfig */,
+				75BEADA4C20EB05C3A75DDF7 /* Pods-Moya+RxSwift+ObjectMapper.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B695F6925401B2000F8DD2C /* Build configuration list for PBXNativeTarget "Moya+RxSwift+ObjectMapper" */;
 			buildPhases = (
+				5792CA2F9614C82418738254 /* [CP] Check Pods Manifest.lock */,
 				8B695F5125401B1F00F8DD2C /* Sources */,
 				8B695F5225401B1F00F8DD2C /* Frameworks */,
 				8B695F5325401B1F00F8DD2C /* Resources */,
+				9F9B0FCEA9BCAAB1F9CF7E13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +178,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5792CA2F9614C82418738254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moya+RxSwift+ObjectMapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9B0FCEA9BCAAB1F9CF7E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moya+RxSwift+ObjectMapper/Pods-Moya+RxSwift+ObjectMapper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moya+RxSwift+ObjectMapper/Pods-Moya+RxSwift+ObjectMapper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moya+RxSwift+ObjectMapper/Pods-Moya+RxSwift+ObjectMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B695F5125401B1F00F8DD2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B695F5D25401B1F00F8DD2C /* ViewController.swift in Sources */,
+				8B47C9922541C049000B42EF /* SceneDelegate.swift in Sources */,
+				8B695F842540521D00F8DD2C /* ObjectMapperExtension.swift in Sources */,
 				8B695F5925401B1F00F8DD2C /* AppDelegate.swift in Sources */,
-				8B695F5B25401B1F00F8DD2C /* SceneDelegate.swift in Sources */,
+				8B47C9862541BC1D000B42EF /* TestModel.swift in Sources */,
+				8B695F7925401D3800F8DD2C /* API.swift in Sources */,
+				8B695F7D254020C200F8DD2C /* TestAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +375,14 @@
 		};
 		8B695F6A25401B2000F8DD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD02AD032319B5F41EBC4844 /* Pods-Moya+RxSwift+ObjectMapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T276T2NBU;
 				INFOPLIST_FILE = "Moya+RxSwift+ObjectMapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +396,14 @@
 		};
 		8B695F6B25401B2000F8DD2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BEADA4C20EB05C3A75DDF7 /* Pods-Moya+RxSwift+ObjectMapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T276T2NBU;
 				INFOPLIST_FILE = "Moya+RxSwift+ObjectMapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

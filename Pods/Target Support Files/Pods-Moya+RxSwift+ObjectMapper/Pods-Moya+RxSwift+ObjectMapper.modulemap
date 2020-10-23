@@ -1,0 +1,6 @@
+framework module Pods_Moya_RxSwift_ObjectMapper {
+  umbrella header "Pods-Moya+RxSwift+ObjectMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
